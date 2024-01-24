@@ -1,0 +1,14 @@
+import java.util.*;
+public class Trees {
+    public static void main(String ar[]){
+        TreeSet<String> l=new TreeSet<String>();
+        l.add("abc");
+        l.add("klm");
+        l.add("pqr");
+        System.out.println(l);
+        l.remove("klm");
+        System.out.println(l);
+
+
+    }
+}
