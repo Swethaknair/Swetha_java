@@ -1,0 +1,11 @@
+import java.util.*;
+public class Stac {
+    public static void main(String ar[]){
+        Stack <String> l= new Stack<String>();
+        l.push("ab");
+        l.push("lm");
+        System.out.println(l);
+        l.pop();
+        System.out.println(l);
+    }
+}
