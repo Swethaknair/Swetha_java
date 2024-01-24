@@ -1,0 +1,11 @@
+public class Strings {
+    public static void main(String a[]){
+        String s="Hello";
+        String g =s.substring(1,5);
+        System.out.println(g);
+        String b =s.toUpperCase();
+        System.out.println(b);
+        boolean e =s.isEmpty();
+        System.out.println(e);
+    }
+}
