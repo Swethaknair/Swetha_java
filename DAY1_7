@@ -1,0 +1,12 @@
+public class Modify {
+    public static void main(String ar[]){
+        int i;
+        int a[]={1,2,3,4,5};
+        for (i=0;i<a.length;i++){
+            if (a[2]==3){
+                a[2]=5;
+            }
+            System.out.println(a[i]);
+        }
+    }
+}
