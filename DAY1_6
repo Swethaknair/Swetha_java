@@ -1,0 +1,13 @@
+import javax.print.DocFlavor;
+import java.util.*;
+public class Hash {
+    public static void main(String ar[]){
+        HashMap<String,Integer> l= new HashMap<String,Integer>();
+        l.put("abc",1);
+        l.put("efg",4);
+        l.put("hij",8);
+        System.out.println("after adding:"+l);
+        l.remove("abc");
+        System.out.println("after removing:"+l);
+    }
+}
