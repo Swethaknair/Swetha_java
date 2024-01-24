@@ -1,0 +1,14 @@
+public class Array {
+    public static void main(String ar[]){
+        int a[]={5,6,7,8,9},k;
+        int b[]={6,8,9,2},l;
+        k=a.length;
+        l=b.length;
+        if (k>l){
+            System.out.println("array a is greater");
+        }
+        else {
+            System.out.println("array b is greater");
+        }
+    }
+}
