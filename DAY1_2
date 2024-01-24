@@ -1,0 +1,12 @@
+import java.util.*;
+public class Arraylist {
+    public static void main(String ar[]){
+        ArrayList<String> l=new ArrayList<String>();
+        l.add("abc");
+        l.add("def");
+        l.add("ghi");
+        System.out.println("after adding:"+l);
+        l.remove("ghi");
+        System.out.println("after removing:"+l);
+    }
+}
