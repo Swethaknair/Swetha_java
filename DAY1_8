@@ -1,0 +1,11 @@
+import java.util.*;
+public class Que {
+    public static void main(String ar[]){
+        char a[]={'a','b','c'};
+        Queue<String>l=new PriorityQueue<String>();
+        l.poll();
+        System.out.println(l);
+        l.peek();
+        System.out.println(l);
+    }
+}
