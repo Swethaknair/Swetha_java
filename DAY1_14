@@ -1,0 +1,12 @@
+import java.util.*;
+public class Vec {
+    public static void main(String ar[]){
+        Vector<String> l=new Vector<String>();
+        l.add("abc");
+        l.add("cde");
+        l.add("efg");
+        System.out.println("after adding:"+l);
+        l.remove("abc");
+        System.out.println("after removing:"+l);
+    }
+}
