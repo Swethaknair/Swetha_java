@@ -1,0 +1,7 @@
+public class Final {
+    public static void main(String ar[]){
+        final int a=10;
+        a=11;
+        System.out.println(a);
+    }
+}
