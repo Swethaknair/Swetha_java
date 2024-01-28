@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class MagicNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input from user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is a magic number
+        boolean isMagicNumber = isMagic(number);
+
+        // Display the result
+        System.out.println(number + (isMagicNumber ? " is a magic number." : " is not a magic number."));
+
+        scanner.close();
+    }
+
+    // Function to check if a number is a magic number
+    private static boolean isMagic(int num) {
+        while (num > 9) {
+            num = getSumOfDigits(num);
+        }
+        return num == 1;
+    }
+
+    // Function to get the sum of digits of a number
+    private static int getSumOfDigits(int num) {
+        int sum = 0;
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+        return sum;
+    }
+}
